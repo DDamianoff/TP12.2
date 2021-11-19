@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "armamentística 2",
+      "stateId": 1,
+      "teacherId": 2
+    },
+    {
+      "id": 2,
+      "name": "programacion 2",
+      "stateId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 3,
+      "name": "historia de la milanesa",
+      "stateId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 4,
+      "name": "extracción de muelas",
+      "stateId": 1,
+      "teacherId": 2
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "details": "no cursa"
+    },
+    {
+      "id": 2,
+      "details": "aprobada"
+    },
+    {
+      "id": 3,
+      "details": "desaprobada"
+    },
+    {
+      "id": 4,
+      "details": "cursando"
+    },
+    {
+      "id": 5,
+      "details": "recusando"
+    }
+  ],
+  "teachers": [
+    {
+      "first_name": "Ricardo",
+      "last_name": "Silva Teseira",
+      "active": true,
+      "id": 1
+    },
+    {
+      "first_name": "Carlos",
+      "last_name": "Pereira",
+      "active": true,
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+npx json-server --watch ./backend/db.json

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TP12</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="src/styles/styles.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>
+                estado académico [WIP]
+            </h1>
+            <a href="admin_section.html">configurar</a>
+        </header>
+
+        <main>
+            <section>
+                <table class="table_data_container" id="table-data">
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Estado</th>
+                            <th>Profesor</th>
+                            <th>Operaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-data-tbody">
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <label>
+                    <span>Seleccione una materia:</span>
+                    <select name="course-selector" id="course-selector">
+                        <option value="value-default"
+                                selected="selected"
+                                disabled="disabled">seleccione</option>
+                    </select>
+                </label>
+                <input type="button" value="inscribirse" id="btnAddCourse"/>
+            </section>
+        </main>
+        <footer>
+            <p>footer info</p>
+        </footer>
+    </body>
+    <script src="src/scripts/app.js"></script>
+</html>
